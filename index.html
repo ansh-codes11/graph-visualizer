@@ -3,14 +3,19 @@
 <head>
     <title>Graph Visualizer</title>
 </head>
-<body>
+<body style="font-family: Arial; text-align: center; margin-top: 50px;">
 
-<h2>Graph Visualizer</h2>
+<h1>Graph Visualizer 🚀</h1>
 
-<button onclick="runBFS()">Run BFS</button>
-<button onclick="runDijkstra()">Run Dijkstra</button>
+<button onclick="runBFS()" style="padding:10px; margin:10px;">
+    Run BFS
+</button>
 
-<p><b>Output:</b> <span id="output"></span></p>
+<button onclick="runDijkstra()" style="padding:10px; margin:10px;">
+    Run Dijkstra
+</button>
+
+<h3 id="output"></h3>
 
 <script src="script.js"></script>
 
