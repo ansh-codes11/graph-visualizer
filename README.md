@@ -1,11 +1,14 @@
-# Graph Visualizer
+# Graph Visualizer 🚀
 
-This project visualizes graph algorithms like BFS.
+A simple web-based tool to visualize graph algorithms.
 
 ## Features
 - BFS traversal visualization
-- Simple interactive UI
+- Dijkstra shortest path visualization
 
 ## Tech Stack
 - HTML
 - JavaScript
+
+## Description
+This project demonstrates core graph algorithms in an interactive way to improve understanding of traversal and shortest path concepts.
